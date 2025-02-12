@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+</head>
+<body>
+    <form action="../back/update_product.php" method="post">
+        <label for="producto_buscar">Nombre Del Producto A Buscar</label>
+        <input type="text" name="nombre_buscar" id="nombre_buscar">
+        <br>
+        <br>
+        <br>
+        <h1>Porfavor Si Solo Deseas Cambiar El Nombre Deja El Campo De El Precio Vacio Y Si Solo Deseas Cambiar El Precio Deja El Campo Del Nombre Vacio, Pero Si Deseas los Dos Entonces Llena Los Dos Campos</h1>
+        <br>
+        <br>
+        <br>
+        <label for="nombre_cambiar">Nuevo Nombre</label>
+        <input type="text" name="nombre_cambiar" id="nombre_cambiar">
+        <br>
+        <br>
+        <br>
+        <label for="precio_cambiar">Nuevo Precio</label>
+        <input type="number" name="precio_cambiar" id="precio_cambiar">
+        <br>
+        <br>
+        <button type="submit">Cambiar</button>
+    </form>
+</body>
+</html>
